@@ -98,21 +98,5 @@
 		filename_32="openwrt-ipq-ipq60xx-squashfs-root.img"
 		filename_64="openwrt-ipq-ipq60xx_64-squashfs-root.img"
 		/>
-	<partition
-		label="swap"
-		size_in_kb="524288"
-		type="3B19202A-A8DB-4B6F-92D2-0A03AB9609C3"
-		bootable="false"
-		readonly="false"
-		filename=""
-		/>
-	<partition
-		label="storage"
-		size_in_kb="64971264"
-		type="1B1720DA-A8BB-4B6F-92D2-0A93AB9609CA"
-		bootable="false"
-		readonly="false"
-		filename=""
-		/>
 	</physical_partition>
 </configuration>
